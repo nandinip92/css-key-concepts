@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: mintcream;
+  background-color: lightcyan;
   display: block;
 }
 
@@ -110,4 +110,16 @@ input[type="text"] {
   font-size: 20px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+#address h2 {
+  font-size: 40px;
+  color: teal;
+}
+#address img {
+  width: 1500px;
+  height: 400px;
+}
+#address address {
+  font-size: 15px;
 }
