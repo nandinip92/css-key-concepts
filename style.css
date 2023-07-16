@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-color: mintcream;
+  display: block;
+}
+
+nav {
+  padding: 7px;
+  color: cornflowerblue;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: indigo;
+}
+
+li {
+  float: left;
+  border: 1px;
+}
+
+li a {
+  display: block;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: wavy;
+}
+
+.active {
+  background-color: gray;
+  color: white;
+}
+
+li a:hover {
+  background-color: orange;
+  color: white;
+}
