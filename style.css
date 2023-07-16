@@ -78,3 +78,36 @@ input[type="text"] {
 .search-box button:hover {
   background: darkorange;
 }
+
+#covid_update {
+  width: 700px;
+  padding: 7px;
+  border: 6px solid brown;
+  margin: 70px;
+  text-align: center;
+}
+
+#covid_update h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: darkred;
+  text-align: center;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#covid_update p {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
