@@ -43,3 +43,38 @@ li a:hover {
   background-color: orange;
   color: white;
 }
+
+/* label {
+  font-weight: 100;
+  font-weight: bold;
+  display: block;
+  width: 150px;
+  float: left;
+} */
+
+.search-box {
+  float: left;
+}
+
+.search-box label {
+  font-size: 17px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.search-box button {
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: orange;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.search-box button:hover {
+  background: darkorange;
+}
