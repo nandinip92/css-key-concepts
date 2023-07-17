@@ -80,7 +80,7 @@ li a:hover {
 }
 
 #covid_update {
-  width: 700px;
+  max-width: 1200px;
   padding: 7px;
   border: 6px solid brown;
   margin: 70px;
@@ -145,6 +145,9 @@ li a:hover {
   font-weight: 300;
   margin-bottom: 10px;
 }
+#form div {
+  margin-bottom: 10px;
+}
 
 #feedback-form {
   background: #f9f9f9;
@@ -158,6 +161,7 @@ li a:hover {
 
 #feedback-form label {
   padding: 12px 12px 12px 0;
+  width: 150px;
   display: inline-block;
 }
 
@@ -175,7 +179,7 @@ li a:hover {
 #feedback-form input[type="tel"],
 #feedback-form input[type="date"],
 #feedback-form input[type="text"] {
-  width: 100%;
+  width: 50%;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -185,12 +189,24 @@ li a:hover {
 }
 
 #feedback-form input[id="message"] {
-  width: 100%;
+  width: 50%;
+  height: 150px;
   padding: 8px;
-  border: 1px solid #eeeeee;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 8px;
-  margin-bottom: 16px;
-  resize: vertical;
+}
+
+#feedback-form input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#feedback-form input[type="submit"]:hover {
+  background: #43a047;
+  /* -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out; */
 }
